@@ -1,6 +1,3 @@
-Entendido! Aqui está o bloco de código Markdown completo, unindo as partes anteriores com o final que você especificou, tudo em um único lugar para facilitar o seu "copiar e colar":
-
-```markdown
 # ⚡ QR-FAST: O Gerador de QR Code Sem Frescura! 🚀
 
 ![Status](https://img.shields.io/badge/Status-Concluído-green)
@@ -12,42 +9,52 @@ Sabe quando você só precisa de um QR Code rapidinho, mas entra num site que te
 ---
 
 ## 🔗 Links de Acesso
-🚀 **[Testar o Projeto Online](https://wandovilar.github.io/QR-FAST-GERADOR-DE-QRCODE/)** 💻 **[Ver o Código Fonte no GitHub](https://github.com/wandovilar/QR-FAST-GERADOR-DE-QRCODE/)**
+
+🚀 **[Testar o Projeto Online](https://wandovilar.github.io/QR-FAST-GERADOR-DE-QRCODE/)**  
+💻 **[Ver o Código Fonte no GitHub](https://github.com/wandovilar/QR-FAST-GERADOR-DE-QRCODE/)**
 
 ---
 
 ## 🎯 O Objetivo
+
 Direto ao ponto: **Rapidez e Simplicidade**. 🚀  
 O QR-FAST foi criado para ser uma ferramenta objetiva. Você digita a URL ou o texto, o código aparece instantaneamente, e você segue sua vida. Sem pop-ups, sem banners, sem perda de tempo.
 
-
+---
 
 ## ✨ Diferenciais do Projeto
-* 🚫 **Zero Anúncios:** Experiência totalmente limpa e focada no que importa.
-* ⚡ **Geração Instantânea:** Integração fluida com API de QR Code para resposta em tempo real.
-* 📱 **Mobile First:** Design responsivo ajustado para evitar barras de rolagem desnecessárias e garantir fluidez no celular. ✅
-* 🎨 **UI Moderna:** Fundo em degradê vibrante com uma interface intuitiva e botões com feedback visual.
-* 🔗 **Foco em ADS:** Projeto prático focado em lógica de programação e manipulação de interface (DOM).
+
+- 🚫 **Zero Anúncios:** Experiência totalmente limpa e focada no que importa.
+- ⚡ **Geração Instantânea:** Integração fluida com API de QR Code para resposta em tempo real.
+- 📱 **Mobile First:** Design responsivo ajustado para evitar barras de rolagem desnecessárias e garantir fluidez no celular. ✅
+- 🎨 **UI Moderna:** Fundo em degradê vibrante com uma interface intuitiva e botões com feedback visual.
+- 🔗 **Foco em ADS:** Projeto prático focado em lógica de programação e manipulação de interface (DOM).
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
+
 Como estudante de **Análise e Desenvolvimento de Sistemas**, foquei em utilizar as bases sólidas da web:
-* **HTML5:** Estrutura semântica e organizada.
-* **CSS3:** Estilização com Flexbox, Gradientes Lineares e Media Queries para responsividade total.
-* **JavaScript (Vanilla):** Lógica de manipulação de DOM, escuta de eventos (tecla Enter e Cliques) e consumo de API externa.
 
-
+- **HTML5:** Estrutura semântica e organizada.
+- **CSS3:** Estilização com Flexbox, Gradientes Lineares e Media Queries para responsividade total.
+- **JavaScript (Vanilla):** Lógica de manipulação de DOM, escuta de eventos (tecla Enter e Cliques) e consumo de API externa.
 
 ---
 
 ## 🚀 Como rodar o projeto localmente
+
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/wandovilar/QR-FAST-GERADOR-DE-QRCODE.git](https://github.com/wandovilar/QR-FAST-GERADOR-DE-QRCODE.git)
+   git clone https://github.com/wandovilar/QR-FAST-GERADOR-DE-QRCODE.git
 
-```
-
+    ```
 2. Entre na pasta do projeto.
-3. Abra o arquivo `index.html` em seu navegador ou use a extensão **Live Server** no VS Code.
+
+3. Abra o arquivo `index.html` em seu navegador
+   **ou** use a extensão **Live Server** no VS Code.
+
+---
 
 ## 🚧 Backlog de Melhorias
 
@@ -61,9 +68,8 @@ Como estudante de **Análise e Desenvolvimento de Sistemas**, foquei em utilizar
 
 Desenvolvido por **Wando Vilar**. 🚀
 
-Estou em busca de me tornar um desenvolvedor Full Stack, criando soluções que resolvem problemas reais com código limpo e eficiente.
+Estou em busca de me tornar um desenvolvedor **Full Stack**, criando soluções que resolvem problemas reais com código limpo e eficiente.
 
 ---
 
-© 2026 QR-FAST - O Gerador Sem Frescura.
-
+© 2026 **QR-FAST** - O Gerador Sem Frescura.
