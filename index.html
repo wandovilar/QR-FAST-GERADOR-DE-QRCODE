@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonte Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Javascript -->
+    <script src="./js/script.js" defer></script>
+
+    <title>QR-FAST | Gerador de QR Code</title>
+  </head>
+  <body>
+    <img src="./img/logo.png" alt="QR-FAST Logo" class="logo-img">
+    <div class="container">
+      <header id="qr-header">
+        <h1>Gerador de QR Code</h1>
+        <p>Insira uma URL ou Texto, para criar um QR code</p>
+      </header>
+      <div id="qr-form">
+        <input type="text" placeholder="Digite a URL ou um Texto..." />
+        <button>Gerar QR Code</button>
+      </div>
+      <div id="qr-code">
+        <img src="./img/QR-CODE.png" alt="QR Code" />
+      </div>
+      <button id="share-btn" style="display: none">Compartilhar QR Code</button>
+
+      <footer id="qr-footer">
+        <p>Desenvolvido por <strong>Wando Vilar</strong></p>
+        <div class="footer-links">
+          <a href="https://github.com/wandovilar" target="_blank">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/wandovilar/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

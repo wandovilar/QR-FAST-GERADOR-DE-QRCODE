@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  background-attachment: fixed;
+}
+
+/* Logo */
+.logo-img {
+  width: 400px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+/* Container */
+
+.container {
+  background-color: #fff;
+  height: 260px;
+  width: 400px;
+  max-height: 90vh;
+
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.2s;
+}
+
+.container.active {
+  height: 600px;
+}
+
+/* Header */
+#qr-header {
+  text-align: center;
+}
+
+#qr-header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+#qr-header p {
+  color: #444;
+  font-size: 0.9rem;
+}
+
+/* Form */
+#qr-form {
+  margin: 20px 15px;
+}
+
+#qr-form input,
+#qr-form button {
+  width: 100%;
+  height: 55px;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+#qr-form input {
+  border: 1px solid #777;
+  padding: 10px 15px;
+}
+
+#qr-form button {
+  background-color: #086834;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: 0.4s;
+}
+
+#qr-form button:hover {
+  opacity: 1;
+}
+
+/* QR Code */
+
+#qr-code {
+  display: flex;
+  opacity: 0;
+  border: 1px solid #ccc;
+  padding: 30px 0;
+  margin: 20px 15px;
+  justify-content: center;
+  border-radius: 5px;
+  transition: 0.5;
+}
+
+#qr-code img {
+  width: auto;
+  height: 250px;
+}
+
+.container.active #qr-code {
+  opacity: 1;
+}
+
+#share-btn {
+  width: 100%;
+  height: 50px;
+  background-color: #008793;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#share-btn:hover {
+  background-color: #004d7a;
+}
+
+#qr-footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+
+#qr-footer p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+#qr-footer .footer-links {
+  margin-top: 12px;
+}
+
+#qr-footer a {
+  color: #a8eb12;
+  text-decoration: none;
+  font-size: 0.85rem;
+  margin: 0 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+
+#qr-footer a:hover {
+  color: #ffffff;
+  border-bottom: 1px solid #a8eb12;
+  opacity: 1;
+}
+
+/* * Responsivo para Mobile ( 480px ) */
+
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+    max-width: none;
+    padding: 10px;
+  }
+  #qr-footer {
+    margin-top: 60px;
+  }
+
+  .logo-img {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+}
