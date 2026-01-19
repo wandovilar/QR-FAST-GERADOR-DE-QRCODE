@@ -1,32 +1,60 @@
 # ⚡ QR-FAST: O Gerador de QR Code Sem Frescura! 🚀
 
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-green)
+![Status](https://img.shields.io/badge/Status-Concluído-green)
 ![Tech](https://img.shields.io/badge/Tech-HTML%20|%20CSS%20|%20JS-blue)
+![Deploy](https://img.shields.io/badge/Deploy-GitHub%20Pages-orange)
 
-Sabe quando você só precisa de um QR Code rapidinho, mas entra num site que tem mais anúncio que conteúdo e que trava até a sua alma? Pois é, eu também estava cansado disso. Por isso, criei o **QR-FAST**! 😎
+Sabe quando você só precisa de um QR Code rapidinho, mas entra num site que tem mais anúncio que conteúdo e que trava até a sua alma? Foi pensando nisso que desenvolvi o **QR-FAST**! 😎
+
+---
+
+## 🔗 Links de Acesso
+🚀 **[Testar o Projeto Online](https://wandovilar.github.io/QR-FAST-GERADOR-DE-QRCODE/)** 💻 **[Ver o Código Fonte](https://github.com/wandovilar/QR-FAST-GERADOR-DE-QRCODE/)**
+
+---
 
 ## 🎯 O Objetivo
 Direto ao ponto: **Rapidez e Simplicidade**. 🚀
-Aqui não tem "clique aqui para ver o anúncio", não tem site pesado e não tem mistério. Você digita, o código aparece, e você segue sua vida. Ideal para quem precisa de agilidade no dia a dia.
+O QR-FAST foi criado para ser uma ferramenta objetiva. Você digita a URL ou o texto, o código aparece instantaneamente, e você segue sua vida. Sem pop-ups, sem banners, sem perda de tempo.
 
-
-
-## ✨ Por que usar o QR-FAST?
-* 🚫 **Zero Anúncios:** Nada de pop-ups pulando na sua cara.
-* ⚡ **Velocidade de Flash:** Gerado instantaneamente via integração com API.
-* 📱 **Mobile Friendly:** Interface totalmente responsiva, ajustada para ficar perfeita no seu celular. ✅
-* 🎨 **Visual Clean:** Design moderno com um degradê vibrante e efeito de profundidade.
-* 🔗 **Focado em ADS:** Desenvolvido como projeto prático durante o curso de Análise e Desenvolvimento de Sistemas.
+## ✨ Diferenciais do Projeto
+* 🚫 **Zero Anúncios:** Experiência totalmente limpa e focada no que importa.
+* ⚡ **Geração Instantânea:** Integração fluida com API de QR Code para resposta em tempo real.
+* 📱 **Mobile First:** Design responsivo ajustado para evitar barras de rolagem desnecessárias e garantir fluidez no celular. ✅
+* 🎨 **UI Moderna:** Fundo em degradê vibrante com uma interface intuitiva e botões com feedback visual.
+* 🔗 **Foco em ADS:** Projeto prático focado em lógica de programação e manipulação de interface.
 
 ## 🛠️ Tecnologias Utilizadas
-Este projeto utiliza o "trio de ferro" do desenvolvimento web moderno:
-* **HTML5:** Estrutura semântica.
-* **CSS3:** Layouts com Flexbox, gradientes lineares e Media Queries para responsividade.
-* **JavaScript (Vanilla):** Manipulação de DOM e consumo de API externa para geração de imagens.
+Como estudante de **Análise e Desenvolvimento de Sistemas**, foquei em utilizar as bases sólidas da web:
+* **HTML5:** Estrutura semântica e organizada.
+* **CSS3:** Estilização com Flexbox, Gradientes Lineares e Media Queries para responsividade total.
+* **JavaScript (Vanilla):** Lógica de manipulação de DOM, escuta de eventos (tecla Enter e Cliques) e consumo de API externa.
 
 
 
-## 🚀 Como testar na sua máquina?
-1. Faça o download ou clone este repositório:
+---
+
+## 🚀 Como rodar o projeto localmente
+1. Clone este repositório:
    ```bash
-   git clone [https://github.com/wandovilar/seu-repositorio.git](https://github.com/wandovilar/seu-repositorio.git)
+   git clone [https://github.com/wandovilar/QR-FAST-GERADOR-DE-QRCODE.git](https://github.com/wandovilar/QR-FAST-GERADOR-DE-QRCODE.git)
+
+2.Entre na pasta do projeto.
+
+1.Abra o arquivo index.html em seu navegador ou use a extensão Live Server no VS Code.
+
+🚧 Backlog de Melhorias
+
+[ ] Implementação de botão para download direto da imagem.
+
+[ ] Histórico de links gerados via LocalStorage.
+
+[ ] Função de compartilhamento nativo para dispositivos móveis.
+
+👨‍💻 Desenvolvedor
+Desenvolvido por Wando Vilar. 🚀
+
+Estou em busca de me tornar um desenvolvedor Full Stack, criando soluções que resolvem problemas reais com código limpo e eficiente.
+
+© 2026 QR-FAST - O Gerador Sem Frescura.
+
